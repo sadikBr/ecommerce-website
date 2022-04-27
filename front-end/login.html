@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>E Commerce Website | Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="website logo" />
+            <h1><span style="color: rgb(255, 49, 245)">Online</span>Shop</h1>
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href="./index.html#about">About Us</a>
+          </li>
+          <li>
+            <a href="./index.html#services">Services</a>
+          </li>
+          <li>
+            <a href="./index.html#opportunities">Opportunities</a>
+          </li>
+          <li>
+            <a href="./index.html#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <form class="register">
+        <h1>Log In to your account</h1>
+        <label for="usename">
+          <input type="text" id="username" name="username" required />
+          <span>Username</span>
+        </label>
+        <label for="password">
+          <input type="password" id="password" name="password" required />
+          <span>Password</span>
+        </label>
+        <button type="submit">Log In</button>
+        <p>
+          If it's your first time here,
+          <a href="./register.html">Create an account</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
